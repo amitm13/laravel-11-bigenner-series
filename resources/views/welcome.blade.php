@@ -11,11 +11,6 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
     </head>
     <body class="">
-        <h1>{{ $value1 }}</h1>
-        <form method="post" action="submit">
-            @csrf
-            <input type="text" name="username">
-            <button type="submit">Submit</button>
-        </form>
+        <h1>Welcome</h1>
     </body>
 </html>
