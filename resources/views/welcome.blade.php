@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-    </head>
-    <body class="">
-        <h1>{{ $value1 }}</h1>
-        <form method="post" action="submit">
-            @csrf
-            <input type="text" name="username">
-            <button type="submit">Submit</button>
-        </form>
-    </body>
-</html>
+@section('content');
+<h1>Welcome Page</h1>
+<p>Welcome page content here</p>
+@endsection
